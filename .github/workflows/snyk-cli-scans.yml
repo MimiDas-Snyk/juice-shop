@@ -14,7 +14,7 @@ jobs:
     env:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     steps:      
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - name: Download Snyk
         run: |
           wget -O snyk https://static.snyk.io/cli/latest/snyk-linux
