@@ -1,4 +1,4 @@
-name: Snyk CLI Scanss
+name: Snyk CLI Scans
 
 on:
   push:
